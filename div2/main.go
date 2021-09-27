@@ -10,7 +10,7 @@ func main() {
 	fmt.Scan(&a, &b)
 	if b == 0 {
 		fmt.Println("ERROR: unable to divide by 0")
-		return
+		return // <- early return
 	}
 	fmt.Println("a / b =", a/b)
 }

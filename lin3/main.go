@@ -7,7 +7,7 @@ func main() {
 	fmt.Print("Enter a and b: ")
 	var a, b float64
 	fmt.Scan(&a, &b)
-	if a == 0 {
+	if a == 0 { // !=, <, <=, >, >=, ==
 		fmt.Println("ERROR: a must not be zero")
 	} else {
 		x := -b / a

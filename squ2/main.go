@@ -22,7 +22,7 @@ func main() {
 	if D < 0 {
 		fmt.Println("No real roots")
 	} else if D == 0 {
-		x := (-b + math.Sqrt(D)) / (2 * a)
+		x := -b / (2 * a)
 		fmt.Println("x1, x2 =", x)
 	} else {
 		x1 := (-b + math.Sqrt(D)) / (2 * a)
